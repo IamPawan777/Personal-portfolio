@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* height: 100vh; */
+    font-family: 'Ubuntu', sans-serif;
+}
+/* body {
+    min-width: 30%;           /* 300px part of window */
+
+/*} */
+
+/*.....navbar..... */
+.navbar {
+    /* border: 1px dotted blue; */
+    position: fixed;
+    /* top: 0; */
+    background: linear-gradient(to right, black, rgb(17, 84, 34), rgb(151, 165, 40));
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar .links {
+    border: 3px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    height:  60px;
+    width: 30%;
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* z-index: 4; */
+}
+.navbar .links:hover {
+    background: linear-gradient(to right, rgb(39, 38, 41), rgb(17, 33, 21), rgb(41, 100, 23));
+    
+}
+.navbar .links a {
+    /* border: 2px solid rgb(247, 243, 243); */
+    /* border-radius: 10px; */
+    color: rgb(171, 170, 197);
+    
+}
+.navbar .links a :hover {
+    color: rgb(48, 101, 233);
+}
+.navbar .site {
+    /* border: 3px solid rgb(247, 243, 243); */
+    /* border-radius: 10px; */
+    /* height:  60px; */
+    width: 70%;
+    font-size: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.navbar .site .button {
+    font-family: 'Sofia Sans', sans-serif;
+    border: 3px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin-right: 20px;
+}
+/*
+.navbar .site .about-btn {
+    font-family: 'Sofia Sans', sans-serif;
+    border: 3px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin-right: 20px;
+    /* color: black; */
+/*}*/
+/*
+.navbar .site .project-btn {
+    font-family: 'Sofia Sans', sans-serif;
+    border: 3px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin-right: 20px;
+    /* color: black; */
+/*}
+.navbar .site .contact-btn {
+    font-family: 'Sofia Sans', sans-serif;
+    border: 3px solid rgb(247, 243, 243);
+    border-radius: 10px;
+    padding: 3px 10px;
+    /* color: black; */
+/*}*/
+
+
+
+/* ........About....... */
+.About {
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+
+
+/* .........Project..... */
+.Project {
+    background-color: rgb(69, 153, 102);
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+
+
+/* ........Contact..... */
+.Contact {
+    background-color: brown;
+    height: 200px;
+    width: 100%;
+}
+
+
+/* 
+
+@media  {
+    
+} */
