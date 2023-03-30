@@ -18,7 +18,7 @@
     position: fixed;
     /* top: 0; */
     background: linear-gradient(to right, black, rgb(17, 84, 34), rgb(151, 165, 40));
-    height: 70px;
+    height: 8%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -27,9 +27,9 @@
     padding-right: 30px;
 }
 .navbar .links {
-    border: 3px solid rgb(247, 243, 243);
+    border: 2px solid rgb(247, 243, 243);
     border-radius: 10px;
-    height:  60px;
+    height:  48px;
     width: 30%;
     font-size: 40px;
     font-weight: 900;
@@ -57,55 +57,103 @@
     /* border-radius: 10px; */
     /* height:  60px; */
     width: 70%;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 900;
     color: aliceblue;
     display: flex;
     align-items: center;
     justify-content:flex-end;
+    gap: 1rem;
 }
 .navbar .site .button {
     font-family: 'Sofia Sans', sans-serif;
     border: 3px solid rgb(247, 243, 243);
     border-radius: 10px;
-    padding: 3px 10px;
-    margin-right: 20px;
+    padding: 0px 10px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-right: 20px; */
 }
-/*
-.navbar .site .about-btn {
-    font-family: 'Sofia Sans', sans-serif;
-    border: 3px solid rgb(247, 243, 243);
-    border-radius: 10px;
-    padding: 3px 10px;
-    margin-right: 20px;
-    /* color: black; */
-/*}*/
-/*
-.navbar .site .project-btn {
-    font-family: 'Sofia Sans', sans-serif;
-    border: 3px solid rgb(247, 243, 243);
-    border-radius: 10px;
-    padding: 3px 10px;
-    margin-right: 20px;
-    /* color: black; */
-/*}
-.navbar .site .contact-btn {
-    font-family: 'Sofia Sans', sans-serif;
-    border: 3px solid rgb(247, 243, 243);
-    border-radius: 10px;
-    padding: 3px 10px;
-    /* color: black; */
-/*}*/
+
+
 
 
 
 /* ........About....... */
 .About {
     /* border: 2px solid red; */
-    height: 100vh;
     width: 100%;
-    background-color: blueviolet;
+    height: 110vh;
+    background-color: rgb(193, 181, 202);
+    background-image: url(Backimage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.About .about-grid {
+    /* background-color: black; */
+    height: 50%;
+    width: 65%;
+    min-width: 40rem;               /* at least */
+    /* margin: 2rem; */
+    display: grid;
+    grid-template-columns: 13rem 5rem 5rem;
+    grid-template-rows: 13rem 13rem;
+    /* grid-gap: 10px;            */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.About .about-grid .about-img {
+    /* color: aliceblue; */
+    grid-column: 1/4;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(41, 100, 23); */
+}
+.About .about-grid .about-img img {
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+}
+.card {
+    border-radius: 0.9rem;
+    box-shadow: rgb(17, 19, 22) 10px 25px 35px -10px;
+}
+.About .about-grid .about-name {
+    grid-column: 4/5;
+    /* background-color: blue; */
+    font-size: 3.2rem;
+    font-weight: 900;
+    /* color: black; */
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+.About .about-grid .about-name span {
+    font-size: 1.6rem;
+}
+.About .about-grid .about-about {
+    grid-column: 4/5;
+    /* background-color: red; */
+    font-size: 2.6rem;
+    /* color: black; */
+    font-weight: 900;
+    display: flex; 
+    align-items: start;
+    justify-content: start;
+}
+/* .About .about-grid .space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 
 
