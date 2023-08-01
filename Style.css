@@ -26,7 +26,7 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-.navbar .links {
+.navbar .left {
     border: 2px solid rgb(247, 243, 243);
     border-radius: 10px;
     height:  48px;
@@ -39,17 +39,17 @@
     justify-content: space-evenly;
     /* z-index: 4; */
 }
-.navbar .links:hover {
+.navbar .left:hover {
     background: linear-gradient(to right, rgb(39, 38, 41), rgb(17, 33, 21), rgb(41, 100, 23));
     
 }
-.navbar .links a {
+.navbar .left a {
     /* border: 2px solid rgb(247, 243, 243); */
     /* border-radius: 10px; */
     color: rgb(171, 170, 197);
     
 }
-.navbar .links a :hover {
+.navbar .left a :hover {
     color: rgb(48, 101, 233);
 }
 .navbar .site {
@@ -114,7 +114,7 @@
     min-width: 280px;
     height: 80%;
     /* background-image: url(pic3.png); */
-    background-image: url(Background.jpg);
+    background-image: url(pic3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -140,7 +140,7 @@
     grid-column: 3 / span 4;
     width: 25%;
     height: 50%;
-    background: linear-gradient(to right, rgb(41, 40, 43), rgb(36, 69, 45), rgb(41, 100, 23));
+    background: linear-gradient(to right, rgb(41, 40, 43), rgb(69, 55, 36), rgb(41, 100, 23));
     /* background-color: #a2c028; */
     align-self: center;
     justify-self: flex-start;
