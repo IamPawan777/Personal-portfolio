@@ -506,7 +506,7 @@ img{
 }
 .tooltiptext a {
     text-decoration: none;
-    color: rgb(82, 200, 133);
+    color: crimson;
     padding: 1rem;
     font-size: large;
     font-weight: 600;
