@@ -392,7 +392,7 @@ img{
 }
 .contact .copyright {
     font-size: 1.3rem;
-    color: blue;
+    color: rgb(5, 5, 10);
 }
 .contact .copyright .name{
     color: crimson;
@@ -401,8 +401,9 @@ img{
 
 
 
-/* 1 media Query. start.......................... */
 
+
+/* 1 media Query. start.......................... */
 
 @media screen and (width <= 1120px) {
     .section-heading {
